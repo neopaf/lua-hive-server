@@ -1,0 +1,28 @@
+--- ./gen-lua/0/TCLIService_constants.lua	2022-12-15 17:07:24.000000000 +0300
++++ gen-lua/TCLIService_constants.lua	2022-12-16 09:01:01.000000000 +0300
+@@ -8,7 +8,7 @@
+ 
+ require 'Thrift'
+ 
+-PRIMITIVE_TYPES =  = {
++PRIMITIVE_TYPES = {
+ [0] = true,
+ [1] = true,
+ [2] = true,
+@@ -28,14 +28,14 @@
+ [21] = true,
+ [22] = true}
+ 
+-COMPLEX_TYPES =  = {
++COMPLEX_TYPES = {
+ [10] = true,
+ [11] = true,
+ [12] = true,
+ [13] = true,
+ [14] = true}
+ 
+-COLLECTION_TYPES =  = {
++COLLECTION_TYPES = {
+ [10] = true,
+ [11] = true}
+ 
