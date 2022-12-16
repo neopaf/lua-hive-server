@@ -1,5 +1,5 @@
 package = "hive"
-version = "0.0.2-1"
+version = "0.0.3-1"
 source = {
   url = "https://git.vimpelcom.ru/products/hermes/lua-hive"
 }
@@ -17,5 +17,6 @@ build = {
     ["TCLIService_constants"] = "gen-lua/TCLIService_constants.lua",
     ["TCLIService_ttypes"] = "gen-lua/TCLIService_ttypes.lua",
     ["TCLIService_TCLIService"] = "gen-lua/TCLIService_TCLIService.lua",
-  }
+  },
+  copy_directories = { "spec" }
 }
