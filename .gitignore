@@ -1,1 +1,5 @@
 TCLIService.thrift
+gen-lua
+*.rock
+.rocks
+/.idea/
