@@ -1,5 +1,5 @@
 package = "hive"
-version = "0.0.3-1"
+version = "0.0.4-1"
 source = {
   url = "https://git.vimpelcom.ru/products/hermes/lua-hive"
 }
@@ -9,7 +9,7 @@ description = {
   license = "Apache 2.0"
 }
 dependencies = {
-  "thrift >= 0.10.0"
+  "thrift >= 0.17.0"
 }
 build = {
   type = "builtin",
