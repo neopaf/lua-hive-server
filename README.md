@@ -15,3 +15,9 @@ luarocks pack hive
 ```
 
 [result](hive-0.0.4-1.all.rock) 
+
+Manually copy to
+https://github.com/neopaf/rocks
+
+Read README there and publish to
+https://neopaf.github.io/rocks/
