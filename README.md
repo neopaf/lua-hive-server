@@ -1,9 +1,11 @@
-## Make wrapper
+# Prerequisities
 
-Build https://github.com/neopaf/lua-thrift and put .rock to /tmp
+Install https://thrift.apache.org
+
+# Build
 
 ```bash
-luarocks rocks install /tmp/thrift-0.17.0-4.all.rock
+luarocks rocks install thrift --server https://neopaf.github.io/rocks/
 wget https://raw.githubusercontent.com/apache/hive/master/service-rpc/if/TCLIService.thrift -Ospec/TCLIService.thrift
 thrift --gen lua spec/TCLIService.thrift
 patch -p0 <fix.patch
@@ -14,10 +16,16 @@ luarocks build
 luarocks pack hive 
 ```
 
-[result](hive-0.0.4-1.all.rock) 
+## Publish
 
 Manually copy to
 https://github.com/neopaf/rocks
 
 Read README there and publish to
 https://neopaf.github.io/rocks/
+
+## Installation
+
+```bash
+luarocks install hive --server https://neopaf.github.io/rocks/
+```
