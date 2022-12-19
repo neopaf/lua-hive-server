@@ -29,3 +29,9 @@ https://neopaf.github.io/rocks/
 ```bash
 luarocks install hive --server https://neopaf.github.io/rocks/
 ```
+
+OR
+
+```bash
+tarantool rocks install hive --server https://neopaf.github.io/rocks/
+```
